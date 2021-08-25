@@ -11,7 +11,7 @@ class MyDocument extends Document {
       title: 'Duark Blog',
       description: 'Tech Blog de Kelysson Duarte, designer e motion mas com recentes aventuras no mundo Dev e Javascript',
       image:
-        'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+        'http://www.duark.com.br/public/images/dps2.png'
     }
 
     return (
@@ -22,13 +22,13 @@ class MyDocument extends Document {
           <meta property="og:site_name" content={meta.title} />
           <meta property="og:description" content={meta.description} />
           <meta property="og:title" content={meta.title} />
-          {/* <meta property="og:image" content={meta.image} /> */}
+          <meta property="og:image" content={meta.image} />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@duark.com.br" />
           <meta name="twitter:creator" content="@kekemesmo" />
           <meta name="twitter:title" content={meta.title} />
           <meta name="twitter:description" content={meta.description} />
-          {/* <meta name="twitter:image" content={meta.image} /> */}
+          <meta name="twitter:image" content={meta.image} />
         </Head>
         <body>
           <Main />
