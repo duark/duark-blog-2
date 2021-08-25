@@ -11,7 +11,7 @@ class MyDocument extends Document {
       title: 'Duark Blog',
       description: 'Tech Blog de Kelysson Duarte, designer e motion mas com recentes aventuras no mundo Dev e Javascript',
       image:
-        'http://www.duark.com.br/public/images/dps2.png'
+        'https://raw.githubusercontent.com/duark/duark-blog-2/master/public/images/dps2.png'
     }
 
     return (
