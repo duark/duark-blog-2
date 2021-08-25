@@ -244,3 +244,6 @@ We've discussed two forms of pre-rendering for Next.js.
 </figure>
 
 
+## Img Example
+
+![Avatar Kelysson Duarte](https://avatars.githubusercontent.com/u/65264892?v=4)

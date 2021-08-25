@@ -6,7 +6,12 @@ class MyDocument extends Document {
     return { ...initialProps }
   }
 
+
+
   render() {
+
+
+
     const meta = {
       title: 'Duark Blog',
       description: 'Tech Blog de Kelysson Duarte, designer e motion mas com recentes aventuras no mundo Dev e Javascript',
@@ -34,7 +39,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </Html>
+      </Html >
     )
   }
 }
